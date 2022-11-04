@@ -6,12 +6,22 @@
 }
 
 body{
-    padding-top:70px;
+    padding-top:140px;
     font-family:sans-serif;
 }
 
-/* header*/
+/*container*/
+.container-header{
+    min-width: 1500px;
+    margin: 0 auto;
+    display:flex
+}
 
+img{
+   display: block;
+   max-width: 100%;
+}
+/* header*/
 
 header{
     display: flex;
@@ -24,7 +34,7 @@ header{
     right: 0;
 }
 .gender-col{
-    width: 25%;
+    width:calc(100% / 3 );
 }
 
 .list-gender{
@@ -33,7 +43,7 @@ header{
     gap: 10px;
     align-items: center;
     height: 70px;
-    justify-content: flex-end;
+    justify-content: flex-start;
     flex-basis: 25%;
 }
 
@@ -45,7 +55,8 @@ header{
 }
 
 .logo-col{
-    width: 50%;
+    width:calc(100% / 3 );
+    
 }
 
 .logo-row{
@@ -60,7 +71,7 @@ header{
 }
 
 .icon-col{
-    width: 25%;
+    width:calc(100% / 3 );
 }
 
 .list-icon{
@@ -69,7 +80,7 @@ header{
     gap: 10px;
     align-items: center;
     height: 70px;
-    justify-content: flex-start;
+    justify-content: flex-end;
     flex-basis: 25%;
 }
 
@@ -78,4 +89,37 @@ header{
     color:#fff;
     font-size: 18px;
     font-weight: bold;
+}
+
+/*main*/
+.container{
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.prod-row {
+    display: flex;  
+    gap: 20px;
+    height: 700px;
+    margin-bottom: 80px;
+}
+
+.prod-col{
+    width: calc(100% / 3);
+    height: 300px;  
+}
+
+.prod-col ul{
+    list-style-type: none;
+    margin-top: 3px;
+}
+
+.prod-price{
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.old-price{
+    color: #666;
+    text-decoration-line: line-through;
 }
