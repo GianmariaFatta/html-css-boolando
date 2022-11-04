@@ -12,7 +12,7 @@ body{
 
 /*container*/
 .container-header{
-    min-width: 1500px;
+    min-width: 1300px;
     margin: 0 auto;
     display:flex
 }
@@ -93,7 +93,7 @@ header{
 
 /*main*/
 .container{
-    width: 1500px;
+    width: 1300px;
     margin: 0 auto;
 }
 
@@ -101,7 +101,7 @@ header{
     display: flex;  
     gap: 20px;
     height: 700px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .prod-col{
@@ -122,4 +122,24 @@ header{
 .old-price{
     color: #666;
     text-decoration-line: line-through;
+}
+
+.card:hover #relaxed-fit-tee{
+    content: url(..//img/1b.webp);
+}
+
+.card:hover #roses-tee{
+    content: url(..//img/2b.webp);
+}
+.card:hover #come-zucchero{
+    content: url(..//img/3b.webp);
+}
+.card:hover #tee-unisex{
+    content: url(..//img/4b.webp);
+}
+.card:hover #maya-deluxe{
+    content: url(..//img/5b.webp);
+}
+.card:hover #maglione-black{
+    content: url(..//img/6b.webp);
 }
